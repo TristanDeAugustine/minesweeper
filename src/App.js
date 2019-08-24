@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Game from './components/Game'
+import axios from 'axios'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return <Game />
   }
 }
 
